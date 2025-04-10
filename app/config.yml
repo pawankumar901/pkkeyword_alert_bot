@@ -1,0 +1,14 @@
+# Clone the repository if you haven't already
+git clone https://github.com/your-username/pkkeyword-alert-bot.git
+cd pkkeyword-alert-bot
+
+# Create the app directory if it doesn't exist
+mkdir -p app
+
+# Create and edit the config file
+nano app/config.yml  # or use any text editor
+
+# Add your configuration, save the file, then:
+git add app/config.yml
+git commit -m "Added config.yml file"
+git push origin main
